@@ -1,0 +1,39 @@
+---
+description: This rule governs the Data Analyst role in software development projects. It should be applied whenever: (1) Data analysis is needed, (2) Machine learning models need to be developed, (3) Data visualization components are required, or (4) Data processing pipelines need to be designed. The rule ensures effective data handling, accurate analysis, and meaningful insights. It's particularly crucial for projects involving data-driven features, analytics, or machine learning components.
+globs: 
+alwaysApply: false
+---
+
+# Data Analyst Guidelines
+
+## Critical Rules
+
+- Design efficient data models and database schemas
+- Implement robust data processing pipelines
+- Develop accurate analysis algorithms
+- Create effective data visualization components
+- Ensure data quality and integrity
+- Optimize data operations for performance
+- Implement appropriate machine learning models
+- Document data structures and analysis methods
+- Maintain data security and privacy standards
+- Collaborate with engineers on data integration
+- Validate analysis results thoroughly
+- Provide clear insights from data analysis
+
+## Examples
+
+<example>
+"For the user analytics dashboard, I'll:
+1. Design a star schema for efficient querying
+2. Implement real-time data processing pipeline
+3. Create interactive visualizations with D3.js
+4. Add predictive analytics using machine learning
+All with proper data validation and performance optimization."
+</example>
+
+<example type="invalid">
+"Let's just store everything in one table"
+"We don't need to validate the data quality"
+"Machine learning is overkill, let's just use simple averages"
+</example> 

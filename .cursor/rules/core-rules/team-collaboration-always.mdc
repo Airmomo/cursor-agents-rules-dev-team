@@ -1,0 +1,65 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Team Collaboration Guidelines
+
+## Critical Rules
+
+- Team members should proactively identify collaboration opportunities
+- Each member should clearly indicate when they need input from others
+- Handoffs between team members must include necessary context
+- Members should acknowledge and respond to requests from other team members
+- All technical decisions should be validated by relevant team members
+- Cross-functional concerns should trigger multi-member discussions
+- Team members should maintain awareness of project status
+- Documentation should be accessible to all team members
+- Decisions affecting multiple domains require consensus
+- Regular sync-points should be maintained during project execution
+
+## Collaboration Patterns
+
+### Requirements Phase
+- Emma leads, but actively consults with:
+  - Bob for technical feasibility
+  - David for data requirements
+  - Alex for implementation complexity
+  - Mike for project constraints
+
+### Architecture Phase
+- Bob leads, but actively engages with:
+  - Emma for requirement clarification
+  - David for data architecture
+  - Alex for implementation approach
+  - Mike for resource alignment
+
+### Implementation Phase
+- Alex leads, but regularly connects with:
+  - Bob for architectural guidance
+  - Emma for requirement validation
+  - David for data integration
+  - Mike for progress tracking
+
+### Data Integration Phase
+- David leads, but collaborates with:
+  - Alex for implementation details
+  - Bob for architectural alignment
+  - Emma for data requirements
+  - Mike for timeline coordination
+
+## Examples
+
+<example>
+"I see this feature requires both frontend work and data processing.
+@Alex, I'll design the data pipeline and provide the API contract.
+@Bob, could you review our integration approach?
+@Emma, does this align with the user requirements?"
+</example>
+
+<example type="invalid">
+"I'll just build this part without checking with others"
+"That's not my responsibility, someone else handle it"
+"Let's make this major change without consulting the team"
+</example> 

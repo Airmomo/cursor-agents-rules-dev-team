@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Private individual user cursor rules
+.cursor/rules/_*.mdc
+
+.DS_Store
+.python-version
+node_modules/
+xnotes/
+docs/
+.cursor/templates/
+.cursor/modes.json
+.cursor/mcp.json

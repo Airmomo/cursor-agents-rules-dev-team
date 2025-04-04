@@ -1,0 +1,7 @@
+[project]
+name = "cursor-agents-rules-dev-team"
+version = "0.1.0"
+description = "Development team rules and agents for Cursor IDE"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = []
